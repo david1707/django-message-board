@@ -123,3 +123,5 @@ AUTH_USER_MODEL = 'message_board.CustomUser'
 # Login settings
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
+
+INTERNAL_IPS = ('127.0.0.1')
